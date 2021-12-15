@@ -88,7 +88,7 @@ export default class TransactionScreen extends Component {
       }
       // Apenas para usuários do Android
       // ToastAndroid.show("Livro entregue ao aluno!", ToastAndroid.SHORT);
-      Alert.alert("Livro entregue ao alunot!");
+      Alert.alert("Livro entregue ao aluno!");
     } else {
       var isEligible = await this.checkStudentEligibilityForBookReturn(
         bookId,
